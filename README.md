@@ -7,3 +7,5 @@
 3. Faça um commit das suas mudanças `git commit -m "feat: adiciona nova funcionalidade"`
 4. Faça um push para a branch: `git push origin minha-feature`
 5. Abra um PR (Pull Request)
+
+---

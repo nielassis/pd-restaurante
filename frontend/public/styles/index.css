@@ -134,3 +134,67 @@ header .logo {
   background: #fff;
   margin-bottom: 10px;
 }
+
+#recipes-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+.recipes {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.recipe-title h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+  padding-bottom: 50px;
+}
+
+.recipes-cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.recipe-card {
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.recipe-card img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recipe-card h2 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #000;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  flex-shrink: 0;
+  all: unset;
+  background-color: #000;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 50px 0;
+}
+
+button span {
+  font-weight: 200;
+  font-size: 14px;
+}

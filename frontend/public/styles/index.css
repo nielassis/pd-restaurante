@@ -192,9 +192,64 @@ button {
   padding: 8px;
   border-radius: 8px;
   margin: 50px 0;
+  cursor: pointer;
 }
 
 button span {
   font-weight: 200;
   font-size: 14px;
+}
+
+.mask-group {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.content p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.decor {
+  position: absolute;
+  width: 150px;
+  opacity: 0.9;
+}
+
+.decor-top-left {
+  top: 0;
+  left: 0;
+  transform: translate(-20%, -10%);
+}
+
+.decor-top-right {
+  top: 0;
+  right: 0;
+  transform: translate(20%, 0%);
+}
+
+.decor-bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-20%, 0%) scale(1, -1);
+}
+
+.decor-bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: translate(20%, 10%) scale(-1, -1);
 }

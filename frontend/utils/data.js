@@ -2,6 +2,7 @@ const receitas = [
   {
     id: "receita-frango-cremoso",
     nome: "Frango Cremoso na Frigideira",
+    categoria: "Carnes",
     foto: "../../public/assets/recipes/receita1.png",
     ingredientes: [
       "500g de peito de frango cortado em cubos",
@@ -35,6 +36,7 @@ const receitas = [
   {
     id: "receita-nhoque-batata",
     nome: "Nhoque de Batata",
+    categoria: "Massas",
     foto: "../../public/assets/recipes/receita2.png",
     ingredientes: [
       "1 kg de batatas",
@@ -62,6 +64,7 @@ const receitas = [
   {
     id: "receita-mousse-maracuja",
     nome: "Mousse de Maracujá com 3 Ingredientes",
+    categoria: "Doces",
     foto: "../../public/assets/recipes/receita3.png",
     ingredientes: [
       "1 lata de leite condensado",
@@ -85,6 +88,7 @@ const receitas = [
   {
     id: "receita-torta-limao",
     nome: "Torta de Limão",
+    categoria: "Doces",
     foto: "../../public/assets/recipes/receita4.png",
     ingredientes: [
       "1 pacote de biscoito maisena",
@@ -114,6 +118,7 @@ const receitas = [
   {
     id: "receita-pao-alho",
     nome: "Pão de Alho com Queijo na Airfryer",
+    categoria: "Massas",
     foto: "../../public/assets/recipes/receita5.png",
     ingredientes: [
       "4 pães franceses",
@@ -141,7 +146,7 @@ const receitas = [
   {
     id: "receita-strogonoff-carne",
     nome: "Strogonoff de Carne Simples",
-    categoria: "Prato Principal",
+    categoria: "Carnes",
     foto: "../../public/assets/recipes/receita6.png",
     ingredientes: [
       "500g de carne bovina em tiras",
@@ -224,6 +229,319 @@ const receitas = [
       gorduras: "10g",
     },
   },
+  {
+    id: "receita-carne-assada",
+    nome: "Carne Assada com Batatas",
+    categoria: "Carnes",
+    foto: "../../public/assets/recipes/receita17.png",
+    ingredientes: [
+      "1 kg de patinho ou alcatra",
+      "4 batatas grandes",
+      "3 dentes de alho picados",
+      "2 colheres de sopa de azeite",
+      "Sal e pimenta a gosto",
+      "1 cebola em rodelas",
+      "1 xícara de água ou caldo de carne",
+    ],
+    modoPreparo: [
+      "Tempere a carne com alho, sal, pimenta e azeite. Deixe marinar por 1 hora.",
+      "Pré-aqueça o forno a 180°C.",
+      "Em uma assadeira, coloque a carne e as batatas cortadas ao meio.",
+      "Adicione a cebola e regue com água ou caldo de carne.",
+      "Asse por 1h30, virando a carne na metade do tempo.",
+      "Sirva com arroz branco e salada.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/9Y9Y9Y9Y9Y9",
+    tabelaNutricional: {
+      calorias: "400 kcal",
+      carboidratos: "25g",
+      proteinas: "35g",
+      gorduras: "15g",
+    },
+  },
+  {
+    id: "receita-file-vinho",
+    nome: "Filé Mignon ao Molho de Vinho",
+    categoria: "Carnes",
+    foto: "../../public/assets/recipes/receita18.png",
+    ingredientes: [
+      "500g de filé mignon em bifes",
+      "1 xícara de vinho tinto seco",
+      "2 colheres de sopa de manteiga",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 colher de sopa de farinha de trigo",
+      "1 xícara de caldo de carne",
+      "Sal e pimenta a gosto",
+    ],
+    modoPreparo: [
+      "Tempere os bifes com sal e pimenta.",
+      "Em uma frigideira, derreta a manteiga e doure os bifes. Reserve.",
+      "Na mesma frigideira, refogue a cebola e o alho.",
+      "Adicione a farinha de trigo e misture bem.",
+      "Acrescente o vinho e o caldo de carne, mexendo até engrossar.",
+      "Volte os bifes à frigideira e cozinhe por 5 minutos.",
+      "Sirva com purê de batatas.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/8X8X8X8X8X8",
+    tabelaNutricional: {
+      calorias: "450 kcal",
+      carboidratos: "10g",
+      proteinas: "40g",
+      gorduras: "20g",
+    },
+  },
+  {
+    id: "receita-frango-parmegiana",
+    nome: "Frango à Parmegiana",
+    categoria: "Carnes",
+    foto: "../../public/assets/recipes/receita19.png",
+    ingredientes: [
+      "4 filés de frango",
+      "1 xícara de farinha de rosca",
+      "2 ovos batidos",
+      "1 xícara de molho de tomate",
+      "200g de queijo muçarela",
+      "Óleo para fritar",
+      "Sal e pimenta a gosto",
+    ],
+    modoPreparo: [
+      "Tempere os filés com sal e pimenta.",
+      "Passe os filés na farinha de rosca, nos ovos batidos e novamente na farinha.",
+      "Frite em óleo quente até dourar.",
+      "Coloque os filés em uma assadeira, cubra com molho de tomate e queijo muçarela.",
+      "Leve ao forno até derreter o queijo.",
+      "Sirva com arroz e batata frita.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/7X7X7X7X7X7",
+    tabelaNutricional: {
+      calorias: "500 kcal",
+      carboidratos: "30g",
+      proteinas: "35g",
+      gorduras: "25g",
+    },
+  },
+  {
+    id: "receita-temaki",
+    nome: "Temaki de Salmão",
+    categoria: "Oriental",
+    foto: "../../public/assets/recipes/receita16.png",
+    ingredientes: [
+      "1 xícara de arroz para sushi",
+      "100g de salmão fresco",
+      "1 folha de nori",
+      "1 colher de sopa de cream cheese",
+      "Molho shoyu para servir",
+    ],
+    modoPreparo: [
+      "Prepare o arroz para sushi conforme as instruções da embalagem.",
+      "Corte o salmão em tiras finas.",
+      "Corte a folha de nori ao meio e espalhe o arroz sobre uma metade.",
+      "Adicione o salmão e o cream cheese no centro.",
+      "Enrole o temaki no formato de cone.",
+      "Sirva com molho shoyu.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/3X3X3X3X3X3",
+    tabelaNutricional: {
+      calorias: "200 kcal",
+      carboidratos: "30g",
+      proteinas: "10g",
+      gorduras: "5g",
+    },
+  },
+  {
+    id: "receita-lasanha-berinjela",
+    nome: "Lasanha de Berinjela",
+    categoria: "Massas",
+    foto: "../../public/assets/recipes/receita15.png",
+    ingredientes: [
+      "2 berinjelas cortadas em fatias",
+      "300g de queijo muçarela",
+      "500g de molho de tomate",
+      "100g de queijo parmesão ralado",
+      "Azeite para untar",
+    ],
+    modoPreparo: [
+      "Pré-aqueça o forno a 180°C.",
+      "Grelhe as fatias de berinjela em uma frigideira com um fio de azeite.",
+      "Em uma forma untada, monte camadas de berinjela, molho de tomate e queijo muçarela.",
+      "Finalize com queijo parmesão ralado.",
+      "Asse por 30 minutos ou até dourar.",
+      "Sirva quente.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/4X4X4X4X4X4",
+    tabelaNutricional: {
+      calorias: "280 kcal",
+      carboidratos: "20g",
+      proteinas: "15g",
+      gorduras: "12g",
+    },
+  },
+  {
+    id: "receita-hamburguer",
+    nome: "Hambúrguer Artesanal",
+    categoria: "Lanches",
+    foto: "../../public/assets/recipes/receita14.png",
+    ingredientes: [
+      "500g de carne moída",
+      "1 ovo",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "Sal e pimenta a gosto",
+      "Pão de hambúrguer",
+      "Queijo cheddar",
+      "Alface, tomate e maionese para montar",
+    ],
+    modoPreparo: [
+      "Misture a carne moída, o ovo, a cebola, o alho, o sal e a pimenta.",
+      "Modele os hambúrgueres e grelhe em uma frigideira ou churrasqueira.",
+      "Monte o hambúrguer com o pão, queijo, alface, tomate e maionese.",
+      "Sirva com batata frita ou salada.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/5X5X5X5X5X5",
+    tabelaNutricional: {
+      calorias: "450 kcal",
+      carboidratos: "30g",
+      proteinas: "25g",
+      gorduras: "20g",
+    },
+  },
+  {
+    id: "receita-suco-detox",
+    nome: "Suco Detox de Abacaxi com Hortelã",
+    categoria: "Bebidas",
+    foto: "../../public/assets/recipes/receita13.png",
+    ingredientes: [
+      "2 fatias de abacaxi",
+      "1 folha de couve",
+      "200ml de água gelada",
+      "Folhas de hortelã a gosto",
+      "Gelo a gosto",
+    ],
+    modoPreparo: [
+      "Bata todos os ingredientes no liquidificador até obter uma mistura homogênea.",
+      "Coe (se necessário) e sirva gelado.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/6X6X6X6X6X6",
+    tabelaNutricional: {
+      calorias: "80 kcal",
+      carboidratos: "20g",
+      proteinas: "1g",
+      gorduras: "0g",
+    },
+  },
+  {
+    id: "receita-brigadeiro",
+    nome: "Brigadeiro Tradicional",
+    categoria: "Doces",
+    foto: "../../public/assets/recipes/receita12.png",
+    ingredientes: [
+      "1 lata de leite condensado",
+      "2 colheres de sopa de chocolate em pó",
+      "1 colher de sopa de manteiga",
+      "Chocolate granulado para decorar",
+    ],
+    modoPreparo: [
+      "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.",
+      "Leve ao fogo baixo, mexendo sem parar, até desgrudar do fundo da panela.",
+      "Deixe esfriar e faça pequenas bolinhas com as mãos untadas.",
+      "Passe as bolinhas no chocolate granulado e sirva em forminhas de papel.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/7X7X7X7X7X7",
+    tabelaNutricional: {
+      calorias: "90 kcal",
+      carboidratos: "12g",
+      proteinas: "2g",
+      gorduras: "4g",
+    },
+  },
+  {
+    id: "receita-yakissoba",
+    nome: "Yakissoba de Frango",
+    categoria: "Oriental",
+    foto: "../../public/assets/recipes/receita11.png",
+    ingredientes: [
+      "300g de macarrão para yakissoba",
+      "200g de peito de frango em tiras",
+      "1 cenoura cortada em palitos",
+      "1 pimentão cortado em tiras",
+      "1 cebola cortada em rodelas",
+      "3 colheres de sopa de molho shoyu",
+      "2 colheres de sopa de óleo de gergelim",
+      "Sal e pimenta a gosto",
+    ],
+    modoPreparo: [
+      "Cozinhe o macarrão conforme as instruções da embalagem e reserve.",
+      "Em uma frigideira grande, aqueça o óleo e refogue o frango até dourar.",
+      "Adicione os legumes e refogue até ficarem macios.",
+      "Junte o macarrão cozido e o molho shoyu, misturando bem.",
+      "Tempere com sal e pimenta e sirva quente.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/8X8Z8Z8Z8Z8",
+    tabelaNutricional: {
+      calorias: "320 kcal",
+      carboidratos: "45g",
+      proteinas: "20g",
+      gorduras: "8g",
+    },
+  },
+  {
+    id: "receita-sopa-abobora",
+    nome: "Sopa Cremosa de Abóbora",
+    categoria: "Sopas",
+    foto: "../../public/assets/recipes/receita10.png",
+    ingredientes: [
+      "500g de abóbora cabotiá",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 litro de água ou caldo de legumes",
+      "200ml de creme de leite",
+      "Sal e pimenta a gosto",
+      "Azeite para refogar",
+    ],
+    modoPreparo: [
+      "Descasque e corte a abóbora em cubos.",
+      "Em uma panela, refogue a cebola e o alho no azeite até dourarem.",
+      "Adicione a abóbora e o caldo de legumes. Cozinhe até que a abóbora fique macia.",
+      "Bata a mistura no liquidificador até obter um creme liso.",
+      "Volte à panela, adicione o creme de leite e tempere com sal e pimenta.",
+      "Sirva quente, decorada com salsinha ou croutons.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/9X9Zz5Z5Z5Z",
+    tabelaNutricional: {
+      calorias: "180 kcal",
+      carboidratos: "20g",
+      proteinas: "4g",
+      gorduras: "10g",
+    },
+  },
+  {
+    id: "receita-salada-caesar",
+    nome: "Salada Caesar Clássica",
+    categoria: "Saladas",
+    foto: "../../public/assets/recipes/receita9.png",
+    ingredientes: [
+      "1 alface romana",
+      "100g de croutons",
+      "50g de queijo parmesão ralado",
+      "1 peito de frango grelhado",
+      "Molho Caesar a gosto",
+    ],
+    modoPreparo: [
+      "Lave e rasgue as folhas de alface romana.",
+      "Grelhe o peito de frango e corte em tiras.",
+      "Em uma tigela grande, misture o alface, os croutons e o frango grelhado.",
+      "Regue com o molho Caesar e finalize com queijo parmesão ralado.",
+      "Sirva imediatamente.",
+    ],
+    videoUrl: "https://www.youtube.com/embed/5rZ7zzGj5n4",
+    tabelaNutricional: {
+      calorias: "220 kcal",
+      carboidratos: "15g",
+      proteinas: "18g",
+      gorduras: "10g",
+    },
+  },
 ];
 
 const params = new URLSearchParams(window.location.search);
@@ -232,7 +550,7 @@ const id = params.get("id");
 const receita = receitas.find((r) => r.id === id);
 
 if (receita) {
-  document.title = `Receita: ${receita.nome}`;
+  document.title = `Tempero Certo | Receita: ${receita.nome}`;
   document.getElementById("recipe-name").textContent = receita.nome;
 
   document.getElementById("recipe").innerHTML += `

@@ -8,31 +8,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link
+      rel="shortcut icon"
+      href="../../public/assets/favicon.ico"
+      type="image/x-icon"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
   </head>
   <body>
     <!-- Header -->
+    <!-- Header -->
     <section id="header-container">
       <header>
-        <button class="menu-toggle">☰</button>
-        <div class="logo"><h1>Nome</h1></div>
-
-        <div class="menu">
-          <nav>
-            <ul>
-              <li><a href="#">Categorias</a></li>
-              <li><a href="#">Receitas</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Sobre Nós</a></li>
-            </ul>
-          </nav>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        <div class="logo">
+          <a href="../../index.html">
+            <img src="../../public/assets/logo.png" alt="Logo" />
+          </a>
         </div>
       </header>
       <div class="search-bar">
-        <input type="text" placeholder="Pesquisar" />
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+        <input type="text" placeholder="Buscar..." />
       </div>
     </section>
+
+    <!-- Menu Lateral -->
+    <nav class="menu">
+      <button class="menu-close">&times;</button>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Receitas</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+      </ul>
+    </nav>
 
     <!--Receita-->
     <section id="recipe">

@@ -175,6 +175,10 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+.recipe-card a {
+  text-decoration: none;
+}
+
 .recipe-card {
   width: 200px;
   border-radius: 10px;

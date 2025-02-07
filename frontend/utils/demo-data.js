@@ -47,7 +47,7 @@ card.innerHTML = `
       .map((receita) => {
         return `
           <div class="recipe-card">
-          <a href="receitas.html?id=${receita.id}">
+          <a href="./pages/receita-index/index.html?id=${receita.id}">
             <img src="${receita.foto}" alt="${receita.nome}">
             <h2>${receita.nome}</h2>
           </a>

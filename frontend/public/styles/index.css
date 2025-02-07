@@ -378,6 +378,16 @@ button span {
   color: #aaa;
 }
 
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
 /* Responsividade */
 @media screen and (max-width: 1024px) {
   .categories-cards,
@@ -449,9 +459,8 @@ button span {
   #header-container header {
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
   }
 
   .logo {

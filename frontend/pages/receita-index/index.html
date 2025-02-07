@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/styles/index.css" />
+    <link rel="stylesheet" href="../../public/styles/receita/style.css" />
+    <link rel="stylesheet" href="../../public/styles/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <title>Site de Receitas - PD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
   </head>
   <body>
     <!-- Header -->
@@ -33,47 +34,24 @@
       </div>
     </section>
 
-    <!--Banner-->
-    <section id="banner-container">
-      <div class="banner">
-        <img src="public/assets/banners/Banner.png" alt="" />
-      </div>
-    </section>
-
-    <!--Categorias-->
-    <section id="categories-container">
-      <div class="categories">
-        <div class="categories-header">
-          <div class="categories-title">
-            <h1>Categorias</h1>
-          </div>
-          <div class="categories-link">
-            <a href="#">Ver tudo</a>
-          </div>
-        </div>
-
-        <div class="categories-cards"></div>
-      </div>
-    </section>
-
-    <!--Receitas Demonstrativas-->
-    <section id="recipes-container">
-      <div class="recipes">
-        <div class="recipe-title">
-          <h1>Receitas Simples e Práticas</h1>
-        </div>
-
-        <div class="recipes-cards"></div>
-
-        <button><span>Ver Todas as Receitas</span></button>
+    <!--Receita-->
+    <section id="recipe">
+      <div class="card-header">
+        <h1 id="recipe-name"></h1>
       </div>
     </section>
 
     <!--Ad-->
 
     <section class="mask-group">
-      <img src="./public/assets/ads/foto1.png" class="decor decor-top-left" />
-      <img src="./public/assets/ads/foto2.png" class="decor decor-top-right" />
+      <img
+        src="../../public/assets/ads/foto1.png"
+        class="decor decor-top-left"
+      />
+      <img
+        src="../../public/assets/ads/foto2.png"
+        class="decor decor-top-right"
+      />
 
       <div class="content">
         <p>
@@ -84,11 +62,11 @@
       </div>
 
       <img
-        src="./public/assets/ads/foto2.png"
+        src="../../public/assets/ads/foto2.png"
         class="decor decor-bottom-left"
       />
       <img
-        src="./public/assets/ads/foto1.png"
+        src="../../public/assets/ads/foto1.png"
         class="decor decor-bottom-right"
       />
     </section>
@@ -123,8 +101,7 @@
       <div class="footer-bottom">© 2025. All rights reserved.</div>
     </footer>
 
-    <script src="./pages/index/script.js"></script>
-    <script src="utils/categorias-data.js"></script>
-    <script src="utils/demo-data.js"></script>
+    <script src="../../utils/data.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

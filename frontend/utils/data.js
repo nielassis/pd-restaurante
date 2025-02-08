@@ -233,7 +233,7 @@ const receitas = [
     id: "receita-carne-assada",
     nome: "Carne Assada com Batatas",
     categoria: "Carnes",
-    foto: "../../public/assets/recipes/receita17.png",
+    foto: "../../public/assets/recipes/receita9.png",
     ingredientes: [
       "1 kg de patinho ou alcatra",
       "4 batatas grandes",
@@ -251,7 +251,7 @@ const receitas = [
       "Asse por 1h30, virando a carne na metade do tempo.",
       "Sirva com arroz branco e salada.",
     ],
-    videoUrl: "https://www.youtube.com/embed/9Y9Y9Y9Y9Y9",
+    videoUrl: "https://www.youtube.com/embed/SeLm5koVrvo",
     tabelaNutricional: {
       calorias: "400 kcal",
       carboidratos: "25g",
@@ -263,7 +263,7 @@ const receitas = [
     id: "receita-file-vinho",
     nome: "Filé Mignon ao Molho de Vinho",
     categoria: "Carnes",
-    foto: "../../public/assets/recipes/receita18.png",
+    foto: "../../public/assets/recipes/receita10.png",
     ingredientes: [
       "500g de filé mignon em bifes",
       "1 xícara de vinho tinto seco",
@@ -283,7 +283,7 @@ const receitas = [
       "Volte os bifes à frigideira e cozinhe por 5 minutos.",
       "Sirva com purê de batatas.",
     ],
-    videoUrl: "https://www.youtube.com/embed/8X8X8X8X8X8",
+    videoUrl: "https://www.youtube.com/embed/SQ_NRXQ7xHE",
     tabelaNutricional: {
       calorias: "450 kcal",
       carboidratos: "10g",
@@ -295,7 +295,7 @@ const receitas = [
     id: "receita-frango-parmegiana",
     nome: "Frango à Parmegiana",
     categoria: "Carnes",
-    foto: "../../public/assets/recipes/receita19.png",
+    foto: "../../public/assets/recipes/receita11.png",
     ingredientes: [
       "4 filés de frango",
       "1 xícara de farinha de rosca",
@@ -313,7 +313,7 @@ const receitas = [
       "Leve ao forno até derreter o queijo.",
       "Sirva com arroz e batata frita.",
     ],
-    videoUrl: "https://www.youtube.com/embed/7X7X7X7X7X7",
+    videoUrl: "https://www.youtube.com/embed/w8cIuDcJf_I",
     tabelaNutricional: {
       calorias: "500 kcal",
       carboidratos: "30g",
@@ -325,7 +325,7 @@ const receitas = [
     id: "receita-temaki",
     nome: "Temaki de Salmão",
     categoria: "Oriental",
-    foto: "../../public/assets/recipes/receita16.png",
+    foto: "../../public/assets/recipes/receita12.png",
     ingredientes: [
       "1 xícara de arroz para sushi",
       "100g de salmão fresco",
@@ -341,7 +341,7 @@ const receitas = [
       "Enrole o temaki no formato de cone.",
       "Sirva com molho shoyu.",
     ],
-    videoUrl: "https://www.youtube.com/embed/3X3X3X3X3X3",
+    videoUrl: "https://www.youtube.com/embed/D84HpOWErow",
     tabelaNutricional: {
       calorias: "200 kcal",
       carboidratos: "30g",
@@ -353,7 +353,7 @@ const receitas = [
     id: "receita-lasanha-berinjela",
     nome: "Lasanha de Berinjela",
     categoria: "Massas",
-    foto: "../../public/assets/recipes/receita15.png",
+    foto: "../../public/assets/recipes/receita13.png",
     ingredientes: [
       "2 berinjelas cortadas em fatias",
       "300g de queijo muçarela",
@@ -369,7 +369,7 @@ const receitas = [
       "Asse por 30 minutos ou até dourar.",
       "Sirva quente.",
     ],
-    videoUrl: "https://www.youtube.com/embed/4X4X4X4X4X4",
+    videoUrl: "https://www.youtube.com/embed/cyfExHvMvOY",
     tabelaNutricional: {
       calorias: "280 kcal",
       carboidratos: "20g",
@@ -398,7 +398,7 @@ const receitas = [
       "Monte o hambúrguer com o pão, queijo, alface, tomate e maionese.",
       "Sirva com batata frita ou salada.",
     ],
-    videoUrl: "https://www.youtube.com/embed/5X5X5X5X5X5",
+    videoUrl: "https://www.youtube.com/embed/lChdlEbXIbc",
     tabelaNutricional: {
       calorias: "450 kcal",
       carboidratos: "30g",
@@ -410,7 +410,7 @@ const receitas = [
     id: "receita-suco-detox",
     nome: "Suco Detox de Abacaxi com Hortelã",
     categoria: "Bebidas",
-    foto: "../../public/assets/recipes/receita13.png",
+    foto: "../../public/assets/recipes/receita15.png",
     ingredientes: [
       "2 fatias de abacaxi",
       "1 folha de couve",
@@ -422,7 +422,7 @@ const receitas = [
       "Bata todos os ingredientes no liquidificador até obter uma mistura homogênea.",
       "Coe (se necessário) e sirva gelado.",
     ],
-    videoUrl: "https://www.youtube.com/embed/6X6X6X6X6X6",
+    videoUrl: "https://www.youtube.com/embed/MszEWuiivsg",
     tabelaNutricional: {
       calorias: "80 kcal",
       carboidratos: "20g",
@@ -434,7 +434,7 @@ const receitas = [
     id: "receita-brigadeiro",
     nome: "Brigadeiro Tradicional",
     categoria: "Doces",
-    foto: "../../public/assets/recipes/receita12.png",
+    foto: "../../public/assets/recipes/receita16.png",
     ingredientes: [
       "1 lata de leite condensado",
       "2 colheres de sopa de chocolate em pó",
@@ -447,7 +447,7 @@ const receitas = [
       "Deixe esfriar e faça pequenas bolinhas com as mãos untadas.",
       "Passe as bolinhas no chocolate granulado e sirva em forminhas de papel.",
     ],
-    videoUrl: "https://www.youtube.com/embed/7X7X7X7X7X7",
+    videoUrl: "https://www.youtube.com/embed/W4XVyB7dw6Q",
     tabelaNutricional: {
       calorias: "90 kcal",
       carboidratos: "12g",
@@ -459,7 +459,7 @@ const receitas = [
     id: "receita-yakissoba",
     nome: "Yakissoba de Frango",
     categoria: "Oriental",
-    foto: "../../public/assets/recipes/receita11.png",
+    foto: "../../public/assets/recipes/receita17.png",
     ingredientes: [
       "300g de macarrão para yakissoba",
       "200g de peito de frango em tiras",
@@ -477,7 +477,7 @@ const receitas = [
       "Junte o macarrão cozido e o molho shoyu, misturando bem.",
       "Tempere com sal e pimenta e sirva quente.",
     ],
-    videoUrl: "https://www.youtube.com/embed/8X8Z8Z8Z8Z8",
+    videoUrl: "https://www.youtube.com/embed/OAf1aWAR5HQ",
     tabelaNutricional: {
       calorias: "320 kcal",
       carboidratos: "45g",
@@ -489,7 +489,7 @@ const receitas = [
     id: "receita-sopa-abobora",
     nome: "Sopa Cremosa de Abóbora",
     categoria: "Sopas",
-    foto: "../../public/assets/recipes/receita10.png",
+    foto: "../../public/assets/recipes/receita18.png",
     ingredientes: [
       "500g de abóbora cabotiá",
       "1 cebola picada",
@@ -507,7 +507,7 @@ const receitas = [
       "Volte à panela, adicione o creme de leite e tempere com sal e pimenta.",
       "Sirva quente, decorada com salsinha ou croutons.",
     ],
-    videoUrl: "https://www.youtube.com/embed/9X9Zz5Z5Z5Z",
+    videoUrl: "https://www.youtube.com/embed/B2HE5x_lMbA",
     tabelaNutricional: {
       calorias: "180 kcal",
       carboidratos: "20g",
@@ -519,7 +519,7 @@ const receitas = [
     id: "receita-salada-caesar",
     nome: "Salada Caesar Clássica",
     categoria: "Saladas",
-    foto: "../../public/assets/recipes/receita9.png",
+    foto: "../../public/assets/recipes/receita19.png",
     ingredientes: [
       "1 alface romana",
       "100g de croutons",
@@ -534,7 +534,7 @@ const receitas = [
       "Regue com o molho Caesar e finalize com queijo parmesão ralado.",
       "Sirva imediatamente.",
     ],
-    videoUrl: "https://www.youtube.com/embed/5rZ7zzGj5n4",
+    videoUrl: "https://www.youtube.com/embed/IzaKsptvtx8",
     tabelaNutricional: {
       calorias: "220 kcal",
       carboidratos: "15g",

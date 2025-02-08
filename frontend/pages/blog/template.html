@@ -2,18 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/styles/index.css" />
+    <link rel="stylesheet" href="../../public/styles/index.css" />
+    <link rel="stylesheet" href="../../public/styles/blog/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../public/assets/favicon.ico"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <link
-      rel="shortcut icon"
-      href="./public/assets/favicon.ico"
-      type="image/x-icon"
-    />
-    <title>Tempero Certo - PD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
   </head>
   <body>
     <!-- Header -->
@@ -21,8 +22,8 @@
       <header>
         <button class="menu-toggle"><i class="fas fa-bars"></i></button>
         <div class="logo">
-          <a href="./index.html">
-            <img src="./public/assets/logo.png" alt="Logo" />
+          <a href="../../index.html">
+            <img src="../../public/assets/logo.png" alt="Logo" />
           </a>
         </div>
       </header>
@@ -36,51 +37,42 @@
     <nav class="menu">
       <button class="menu-close">&times;</button>
       <ul>
-        <li><a href="./index.html">Início</a></li>
-        <li><a href="./pages/categorias/index.html">Receitas</a></li>
-        <li><a href="./pages/blog/index.html">Blog</a></li>
+        <li><a href="../../index.html">Início</a></li>
+        <li><a href="../categorias/index.html">Receitas</a></li>
+        <li><a href="./index.html">Blog</a></li>
         <li><a href="#">Sobre Nós</a></li>
       </ul>
     </nav>
 
-    <!--Banner-->
-    <section id="banner-container">
-      <div class="banner">
-        <img src="public/assets/banners/Banner.png" alt="" />
-      </div>
-    </section>
+    <!--Blog-news-->
 
-    <!--Categorias-->
-    <section id="categories-container">
-      <div class="categories">
-        <div class="categories-header">
-          <div class="categories-title">
-            <h1>Categorias</h1>
+    <section id="blog">
+      <a href="./index.html" class="go-back"
+        ><span class="fa fa-arrow-left"></span> Voltar ao Blog</a
+      >
+      <div id="blog-news">
+        <div class="blog-news-container">
+          <div class="blog-news-card">
+            <div class="blog-news-content">
+              <h2></h2>
+              <p></p>
+            </div>
           </div>
         </div>
-
-        <div class="categories-cards"></div>
-      </div>
-    </section>
-
-    <!--Receitas Demonstrativas-->
-    <section id="recipes-container">
-      <div class="recipes">
-        <div class="recipe-title">
-          <h1>Receitas Simples e Práticas</h1>
-        </div>
-
-        <div class="recipes-cards"></div>
-
-        <button onclick="window.location.href='./pages/categorias/index.html'""><span>Ver Todas as Receitas</span></button>
       </div>
     </section>
 
     <!--Ad-->
 
     <section class="mask-group">
-      <img src="./public/assets/ads/foto1.png" class="decor decor-top-left" />
-      <img src="./public/assets/ads/foto2.png" class="decor decor-top-right" />
+      <img
+        src="../../public/assets/ads/foto1.png"
+        class="decor decor-top-left"
+      />
+      <img
+        src="../../public/assets/ads/foto2.png"
+        class="decor decor-top-right"
+      />
 
       <div class="content">
         <p>
@@ -91,11 +83,11 @@
       </div>
 
       <img
-        src="./public/assets/ads/foto2.png"
+        src="../../public/assets/ads/foto2.png"
         class="decor decor-bottom-left"
       />
       <img
-        src="./public/assets/ads/foto1.png"
+        src="../../public/assets/ads/foto1.png"
         class="decor decor-bottom-right"
       />
     </section>
@@ -130,8 +122,7 @@
       <div class="footer-bottom">© 2025. All rights reserved.</div>
     </footer>
 
-    <script src="./pages/index/script.js"></script>
-    <script src="utils/categorias-data.js"></script>
-    <script src="utils/demo-data.js"></script>
+    <script src="js/blog-data.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#header-container {
+  margin-bottom: 50px;
+}
+
+#page-title {
+  margin-left: 100px;
+  font-size: 18px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#page-title .icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.recipes-cards {
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.card {
+  width: 450px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.card-content a {
+  display: flex;
+  gap: 30px;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header .recipe-description {
+  color: #3b3b3b;
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  bottom: 0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../public/styles/index.css" />
+    <link rel="stylesheet" href="../../public/styles/blog/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../public/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempero Certo | Blog</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header-container">
+      <header>
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        <div class="logo">
+          <a href="../../index.html">
+            <img src="../../public/assets/logo.png" alt="Logo" />
+          </a>
+        </div>
+      </header>
+      <div class="search-bar">
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+        <input type="text" placeholder="Buscar..." />
+      </div>
+    </section>
+
+    <!-- Menu Lateral -->
+    <nav class="menu">
+      <button class="menu-close">&times;</button>
+      <ul>
+        <li><a href="../../index.html">Início</a></li>
+        <li><a href="../categorias/index.html">Receitas</a></li>
+        <li><a href="./index.html">Blog</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+      </ul>
+    </nav>
+
+    <div class="page-title">
+      <h1>Blog</h1>
+      <p>Veja as noticias mais recentes do mundo da culinaria</p>
+    </div>
+
+    <div class="blog-cards"></div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Navegação</h3>
+          <a href="#">Categorias</a>
+          <a href="#">Todas as receitas</a>
+        </div>
+        <div class="footer-section">
+          <h3>Quem nós somos</h3>
+          <a href="#">Sobre nós</a>
+        </div>
+        <div class="footer-section newsletter">
+          <h3 class="newsletter-title">Mantenha-se atualizado</h3>
+          <div class="newsletter-input">
+            <input type="email" placeholder="Seu melhor e-mail" />
+            <button class="newsletter-button">Enviar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="footer-bottom">© 2025. All rights reserved.</div>
+    </footer>
+
+    <script src="js/blog-data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

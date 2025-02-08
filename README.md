@@ -1,3 +1,7 @@
+## 🌐 Deploy
+- Link: [Tempero Certo](https://tempero-certo.netlify.app)
+
+
 ## 🤝 Contribuição
 
 ### Contribuições são bem vindas! Para contribuir:

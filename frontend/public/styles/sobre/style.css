@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+.page-title h1 {
+  font-size: 36px;
+  color: #000;
+}
+
+.page-title p {
+  font-size: 18px;
+  color: #3b3b3b;
+  margin-bottom: 80px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 100px;
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 10px;
+}
+
+.card-footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.card-header {
+  text-align: start;
+}
+
+.card-header h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+.card-header p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
+}
+
+.about-card {
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.about-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.about-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    align-items: start;
+    justify-content: flex-start;
+  }
+
+  .about-card {
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  .about-card h3 {
+    font-size: 18px;
+  }
+
+  .about-card p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    margin-left: 0;
+  }
+
+  .about-card {
+    padding: 15px;
+  }
+
+  .about-card h3 {
+    font-size: 16px;
+  }
+
+  .about-card p {
+    font-size: 12px;
+  }
+}
